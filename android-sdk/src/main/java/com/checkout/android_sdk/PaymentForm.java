@@ -530,12 +530,14 @@ public class PaymentForm extends FrameLayout {
      *
      * @param include boolean showing if the header toolbar should be displayed
      */
-    public void includeHeaderToolbar(Boolean include) {
+    public PaymentForm includeHeaderToolbar(Boolean include) {
         if (!include) {
             mDataStore.setShowHeaderToolbar(false);
         } else {
             mDataStore.setShowHeaderToolbar(true);
         }
+
+        return this;
     }
 
 }
