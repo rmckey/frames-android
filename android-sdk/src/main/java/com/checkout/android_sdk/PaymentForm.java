@@ -524,4 +524,18 @@ public class PaymentForm extends FrameLayout {
         return this;
     }
 
+    /**
+     * This method used to decide if the header toolbar will be
+     * displayed in the payment form.
+     *
+     * @param include boolean showing if the header toolbar should be displayed
+     */
+    public void includeHeaderToolbar(Boolean include) {
+        if (!include) {
+            mDataStore.setShowHeaderToolbar(false);
+        } else {
+            mDataStore.setShowHeaderToolbar(true);
+        }
+    }
+
 }

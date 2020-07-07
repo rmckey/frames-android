@@ -314,6 +314,10 @@ public class CardDetailsView extends LinearLayout {
         if(mDataStore.getCvvLabel() != null) {
             mCvvLayout.setHint(mDataStore.getCvvLabel());
         }
+
+        if (!mDataStore.isShowHeaderToolbar()) {
+            mToolbar.setVisibility(GONE);
+        }
     }
 
     /**

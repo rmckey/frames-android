@@ -78,6 +78,7 @@ public class DataStore {
     private BillingModel mDefaultBillingDetails = null;
     private PhoneModel mDefaultPhoneDetails = null;
     private String mLastCustomerNameState = null;
+    private boolean showHeaderToolbar = true;
 
     protected DataStore() {
     }
@@ -471,6 +472,14 @@ public class DataStore {
 
     public void setDefaultCustomerName(String mDefaulCustomerName) {
         this.mDefaultCustomerName = mDefaulCustomerName;
+    }
+
+    public boolean isShowHeaderToolbar() {
+        return showHeaderToolbar;
+    }
+
+    public void setShowHeaderToolbar(boolean showHeaderToolbar) {
+        this.showHeaderToolbar = showHeaderToolbar;
     }
 
     public void cleanBillingData() {
