@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name" translatable="false">checkout-android-sdk</string>
+    <string name="title_card_details" translatable="true">معلومات البطاقة</string>
+    <string name="label_accepted_cards" translatable="true">البطاقات المقبولة</string>
+    <string name="placeholder_card_number" translatable="true">رقم البطاقة *</string>
+    <string name="error_card_number" translatable="true">رقم البطاقة غير صالح</string>
+    <string name="label_expiration_date" translatable="true">تاريخ الإنتهاء *</string>
+    <string name="error_expiration_date" translatable="true">أدخل تاريخًا صالحًا</string>
+    <string name="placeholder_cvv" translatable="true">كود الحماية * </string>
+    <string name="error_cvv" translatable="true">أدخل كود حماية صالح</string>
+    <string name="label_billing_details" translatable="true">معلومات الفاتورة</string>
+    <string name="select_billing_details" translatable="true">تحديد</string>
+    <string name="edit_billing_details" translatable="true">تعديل</string>
+    <string name="billing_details_add" translatable="true">+ أضف</string>
+    <string name="button_pay" translatable="true">دفع</string>
+    <string name="title_billing_details" translatable="true">معلومات الفاتورة</string>
+    <string name="placeholder_name" translatable="true">اسم حامل البطاقة *</string>
+    <string name="error_name" translatable="true">يجب أن يكون الاسم أطول من 3 أحرف </string>
+    <string name="placeholder_country" translatable="true"> حدد البلد / المنطقة</string>
+    <string name="error_country" translatable="true">Please select a country/region</string>
+    <string name="placeholder_address_one" translatable="true">Address line 1*</string>
+    <string name="error_address_one" translatable="true">Value must be longer then 3 characters</string>
+    <string name="placeholder_address_two" translatable="true">Address line 2</string>
+    <string name="error_address_tow" translatable="true">Value must be longer then 3 characters</string>
+    <string name="placeholder_city" translatable="true">Postal Town*</string>
+    <string name="error_city" translatable="true">Value must be longer then 2 characters</string>
+    <string name="placeholder_state" translatable="true">State</string>
+    <string name="error_state" translatable="true">Value must be longer then 3 characters</string>
+    <string name="placeholder_postcode" translatable="true">Postcode*</string>
+    <string name="error_postcode" translatable="true">Value must be longer then 3 characters</string>
+    <string name="placeholder_phone" translatable="true">Phone*</string>
+    <string name="error_phone" translatable="true">Value must be longer then 3 characters</string>
+    <string name="button_clear" translatable="true">مسح</string>
+    <string name="button_done" translatable="true">Done</string>
+    <string name="card_icon_resource" translatable="false">card_icon*</string>
+</resources>
